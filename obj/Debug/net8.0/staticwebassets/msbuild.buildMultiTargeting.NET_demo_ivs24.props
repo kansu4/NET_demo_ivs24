@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NET_demo_ivs24.props" />
+</Project>

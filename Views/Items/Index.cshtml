@@ -1,0 +1,35 @@
+@model List<NET_demo_ivs24.Models.Item>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3>Index</h3>
+
+<a asp-controller="Items" asp-action="Create" class="btn btn-primary">Create New Item</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Price.ToString("N2") VND</td>
+                <td>
+                    <a asp-controller="Items" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a asp-controller="Items" asp-action="delete" asp-route-id="@item.Id">delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>    
