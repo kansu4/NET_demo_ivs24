@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using NET_demo_ivs24.Models;
@@ -13,6 +14,9 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    // main home need to Authorize before accessing
+
+    [Authorize]
     public IActionResult Index()
     {
         return View();

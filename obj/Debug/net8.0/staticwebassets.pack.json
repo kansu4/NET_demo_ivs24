@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\NET_demo_ivs24.bundle.scp.css"
     },
     {
+      "Id": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
       "Id": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\images\\netlowbudget.jpg",
+      "PackagePath": "staticwebassets\\images\\netlowbudget.jpg"
     },
     {
       "Id": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\js\\site.js",

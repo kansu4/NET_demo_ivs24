@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NET_demo_ivs24.Data;
 
@@ -10,9 +11,11 @@ using NET_demo_ivs24.Data;
 namespace NET_demo_ivs24.Migrations
 {
     [DbContext(typeof(NET_demo_ivs24Context))]
-    partial class NET_demo_ivs24ContextModelSnapshot : ModelSnapshot
+    [Migration("20241107102124_addNote_col")]
+    partial class addNote_col
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -154,6 +157,10 @@ namespace NET_demo_ivs24.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Note")
                         .IsRequired()
                         .HasColumnType("longtext");
 

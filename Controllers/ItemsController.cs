@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NET_demo_ivs24.Models;
-
+using NET_demo_ivs24.Data;
 namespace NET_demo_ivs24.Controllers;
 
 public class ItemsController : Controller
@@ -12,16 +12,18 @@ public class ItemsController : Controller
     //     return View(item);
     // }
 
-    private readonly NET_demo_ivs24Context _context;
+    private readonly NET_demo_ivs24Context _context; // Database context for accessing data
+
+        //constructor assign dtb context
         public ItemsController(NET_demo_ivs24Context context)
         { 
             _context = context; 
         }
 
-
+        // Display list of all items
         public async Task<IActionResult> Index() // wait query data from database
         {
-            var item = await _context.Items.ToListAsync();
+            var item = await _context.Items.ToListAsync(); // retrieve items infos from dtb then pass to the View()
             return View(item);
         }
 
@@ -35,7 +37,7 @@ public class ItemsController : Controller
         {
             if(ModelState.IsValid)
             {
-                _context.Items.Add(item);
+                _context.Items.Add(item); // Add item info to dtb context
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }

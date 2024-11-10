@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NET_demo_ivs24")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1deb2f38d1f75b0205cbf4ad9157e8144fcf896")]
 [assembly: System.Reflection.AssemblyProductAttribute("NET_demo_ivs24")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NET_demo_ivs24")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

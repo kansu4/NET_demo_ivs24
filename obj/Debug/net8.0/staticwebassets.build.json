@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CqyAQrnXp8QCpoPIYkHKHqFAUb5zeROPSpT4xiTWMy0=",
+  "Hash": "zfm1TqCj5jWpSB01vKPSK2k6+cUaSRRg0+dIXX2OfNg=",
   "Source": "NET_demo_ivs24",
   "BasePath": "_content/NET_demo_ivs24",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NET_demo_ivs24.bundle.scp.css"
     },
     {
+      "Identity": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\css\\account.css",
+      "SourceId": "NET_demo_ivs24",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\",
+      "BasePath": "_content/NET_demo_ivs24",
+      "RelativePath": "css/account.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\account.css"
+    },
+    {
       "Identity": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\css\\site.css",
       "SourceId": "NET_demo_ivs24",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\images\\netlowbudget.jpg",
+      "SourceId": "NET_demo_ivs24",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\",
+      "BasePath": "_content/NET_demo_ivs24",
+      "RelativePath": "images/netlowbudget.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\netlowbudget.jpg"
     },
     {
       "Identity": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\js\\site.js",
