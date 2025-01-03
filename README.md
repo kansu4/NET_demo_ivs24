@@ -27,6 +27,7 @@
   Update the connection string in appsettings.json to match your database configuration.
 Run the migrations to set up the database schema.
 3. **Run the Application:*:
+   ```bash
    dotnet run
 
 **User account creation and verification.**
