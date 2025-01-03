@@ -26,13 +26,18 @@
 2. **Set up database**:
   Update the connection string in appsettings.json to match your database configuration.
 Run the migrations to set up the database schema.
-3. **Run the Application:*:
+3. **Run the Application**:
    ```bash
    dotnet run
 
 **User account creation and verification.**
+
 ![image](https://github.com/user-attachments/assets/4b87e4a8-d23e-44a6-96eb-ec07779d0f64)
+
 **Simple home page**
+
 ![image](https://github.com/user-attachments/assets/410eb925-2c7d-4d29-8c28-3933da796133)
+
 **Create, Read, Update, and Delete (CRUD) functionalities for items.**
+
 ![image](https://github.com/user-attachments/assets/2ba972e2-6014-4e38-9886-1df914b61030)
