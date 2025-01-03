@@ -17,8 +17,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\images\\brocoli.png",
+      "PackagePath": "staticwebassets\\images\\brocoli.png"
+    },
+    {
+      "Id": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\images\\kiwi.png",
+      "PackagePath": "staticwebassets\\images\\kiwi.png"
+    },
+    {
       "Id": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\images\\netlowbudget.jpg",
       "PackagePath": "staticwebassets\\images\\netlowbudget.jpg"
+    },
+    {
+      "Id": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\images\\tao.png",
+      "PackagePath": "staticwebassets\\images\\tao.png"
     },
     {
       "Id": "D:\\HOC_HANH\\MW_24\\task_IVS_x\\NET_demo_ivs24\\wwwroot\\js\\site.js",

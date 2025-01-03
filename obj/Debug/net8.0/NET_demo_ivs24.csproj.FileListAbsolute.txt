@@ -148,3 +148,4 @@ D:\HOC_HANH\MW_24\task_IVS_x\NET_demo_ivs24\bin\Debug\net8.0\Microsoft.AspNetCor
 D:\HOC_HANH\MW_24\task_IVS_x\NET_demo_ivs24\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\HOC_HANH\MW_24\task_IVS_x\NET_demo_ivs24\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\HOC_HANH\MW_24\task_IVS_x\NET_demo_ivs24\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\HOC_HANH\MW_24\task_IVS_x\NET_demo_ivs24\obj\Debug\net8.0\NET_demo_ivs24.sourcelink.json

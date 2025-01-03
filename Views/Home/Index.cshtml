@@ -2,15 +2,24 @@
     ViewData["Title"] = "Home Page";
 }
 
-
-
-<!-- Add a button to navigate to the Items Index page -->
+<!-- Home Page Content -->
 <div class="text-center">
     <h2>Welcome to the Home Page</h2>
-    <a asp-controller="Items" asp-action="Index" class="btn btn-primary">Go to Items</a>
-</div>
 
-@* <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div> *@
+    <!-- Button to navigate to the Items Index page -->
+    <a asp-controller="Items" asp-action="Index" class="btn btn-primary">Buy ingredient</a>
+
+    <!-- Embedded YouTube Video -->
+    <div class="mt-4">
+        <h3>New recipe from the chef</h3>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/gLMcUa2C9Do"  
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>

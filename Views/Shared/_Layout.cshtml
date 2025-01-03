@@ -22,9 +22,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                        
                         <partial name="_LoginPartial" />
                     </ul>
                 </div>
@@ -37,14 +35,35 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    @* <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2024 - UsersApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
+    </footer> *@
+    <footer class="border-top footer text-muted">
+    <div class="container text-center py-3">
+        <a href="#" id="contact-link" class="text-primary" style="text-decoration: none;">Contact us</a>
+        <div id="contact-content" class="mt-3" style="display: none; background-color: #f8f9fa; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+            <h5>Contact Us</h5>
+            <p>Email: contact@usersapp.com</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <button id="close-contact" class="btn btn-sm btn-secondary">Close</button>
+        </div>
+    </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    <script>
+    document.getElementById('contact-link').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.getElementById('contact-content').style.display = 'block';
+    });
+
+    document.getElementById('close-contact').addEventListener('click', function () {
+        document.getElementById('contact-content').style.display = 'none';
+    });
+</script>
 </body>
 </html>

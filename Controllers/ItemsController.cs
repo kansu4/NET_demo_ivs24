@@ -35,6 +35,15 @@ public class ItemsController : Controller
 
         public async Task<IActionResult> Create([Bind("Id, Name, Price")] Item item) // create and bind to Item model
         {
+            // string[] pdfArray = {
+            // "/pdfs/sample1.pdf",
+            // "/pdfs/sample2.pdf",
+            // "/pdfs/sample3.pdf"
+            // };
+
+            // Random random = new Random();
+            // item.PdfUrl = pdfArray[random.Next(pdfArray.Length)];
+
             if(ModelState.IsValid)
             {
                 _context.Items.Add(item); // Add item info to dtb context
